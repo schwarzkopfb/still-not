@@ -1,0 +1,38 @@
+{
+  "name": "still-not",
+  "version": "1.0.0",
+  "description": "undefined is not a function and it's likely to remain so forever",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js",
+    "cover": ". ./bin/cover.sh",
+    "cover-and-upload": "npm run cover && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/still-not.git"
+  },
+  "keywords": [
+    "undefined",
+    "is",
+    "still",
+    "not",
+    "a",
+    "function",
+    "error"
+  ],
+  "author": "Schwarzkopf Balázs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/still-not/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/still-not#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "tap": "^8.0.1"
+  }
+}
