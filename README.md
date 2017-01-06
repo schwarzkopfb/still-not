@@ -17,7 +17,7 @@ require('still-not')
 undefined()
 ```
 
-And then stack traces of uncaught exceptions will look similar to the following:
+And then stack traces related of uncaught exceptions will look similar to the following:
 
 ```
 TypeError: undefined is _still_ not a function

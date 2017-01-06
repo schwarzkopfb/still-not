@@ -1,6 +1,6 @@
 {
   "name": "still-not",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "undefined is not a function and it's likely to remain so forever",
   "main": "index.js",
   "directories": {
